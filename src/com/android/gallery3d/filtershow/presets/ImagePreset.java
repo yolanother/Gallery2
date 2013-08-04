@@ -16,9 +16,11 @@
 
 package com.android.gallery3d.filtershow.presets;
 
+import java.util.Vector;
+
 import android.graphics.Bitmap;
 import android.graphics.Rect;
-import android.support.v8.renderscript.Allocation;
+import android.renderscript.Allocation;
 import android.util.Log;
 
 import com.android.gallery3d.filtershow.cache.CachingPipeline;
@@ -31,8 +33,6 @@ import com.android.gallery3d.filtershow.imageshow.MasterImage;
 import com.android.gallery3d.filtershow.state.State;
 import com.android.gallery3d.filtershow.state.StateAdapter;
 import com.android.gallery3d.util.UsageStatistics;
-
-import java.util.Vector;
 
 public class ImagePreset {
 

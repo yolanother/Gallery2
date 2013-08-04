@@ -17,14 +17,13 @@
 package com.android.gallery3d.filtershow.cache;
 
 import android.graphics.Bitmap;
-import android.os.*;
+import android.os.Handler;
+import android.os.HandlerThread;
+import android.os.Message;
 import android.os.Process;
-import android.support.v8.renderscript.*;
 import android.util.Log;
 
 import com.android.gallery3d.filtershow.filters.FiltersManager;
-import com.android.gallery3d.filtershow.filters.ImageFilterRS;
-import com.android.gallery3d.filtershow.imageshow.GeometryMetadata;
 import com.android.gallery3d.filtershow.imageshow.MasterImage;
 import com.android.gallery3d.filtershow.presets.ImagePreset;
 

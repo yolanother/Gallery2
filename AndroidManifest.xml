@@ -7,7 +7,7 @@
 
     <original-package android:name="com.android.gallery3d" />
 
-    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="17" />
+    <uses-sdk android:minSdkVersion="17" android:targetSdkVersion="18" />
 
     <permission android:name="com.android.gallery3d.permission.GALLERY_PROVIDER"
             android:protectionLevel="signatureOrSystem" />
@@ -32,6 +32,12 @@
     <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
     <uses-permission android:name="com.android.gallery3d.permission.GALLERY_PROVIDER" />
 
+    <permission android:name="com.android.gallery3d.filtershow.permission.READ"
+            android:protectionLevel="signature" />
+
+    <permission android:name="com.android.gallery3d.filtershow.permission.WRITE"
+                android:protectionLevel="signature" />
+    
     <supports-screens android:smallScreens="false"
             android:normalScreens="true" android:largeScreens="true"
             android:anyDensity="true" />
@@ -206,12 +212,6 @@
         <activity android:name="com.android.gallery3d.app.TrimVideo"
                 android:label="@string/trim_label">
         </activity>
-
-        <permission android:name="com.android.gallery3d.filtershow.permission.READ"
-                    android:protectionLevel="signature" />
-
-        <permission android:name="com.android.gallery3d.filtershow.permission.WRITE"
-                    android:protectionLevel="signature" />
 
         <provider
             android:name="com.android.gallery3d.filtershow.provider.SharedImageProvider"

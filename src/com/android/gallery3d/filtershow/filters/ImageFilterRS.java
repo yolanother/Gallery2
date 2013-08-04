@@ -16,11 +16,15 @@
 
 package com.android.gallery3d.filtershow.filters;
 
+import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.support.v8.renderscript.*;
+import android.renderscript.Allocation;
+import android.renderscript.Element;
+import android.renderscript.RenderScript;
+import android.renderscript.Type;
 import android.util.Log;
-import android.content.res.Resources;
+
 import com.android.gallery3d.R;
 import com.android.gallery3d.filtershow.cache.CachingPipeline;
 

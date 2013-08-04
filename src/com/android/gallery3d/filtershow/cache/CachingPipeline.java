@@ -19,8 +19,8 @@ package com.android.gallery3d.filtershow.cache;
 import android.app.Activity;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
-import android.support.v8.renderscript.Allocation;
-import android.support.v8.renderscript.RenderScript;
+import android.renderscript.Allocation;
+import android.renderscript.RenderScript;
 import android.util.Log;
 
 import com.android.gallery3d.filtershow.filters.FiltersManager;
